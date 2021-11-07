@@ -4,17 +4,26 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-.header:after{
-    content: "";
-    display: table;
-    clear: both;
-}
 
 a{
     text-decoration: none;
     color: black;
 }
 
+/*BARRA DI NAVIGAZIONE */
+
+.header:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    padding-left: 30px;
+    display: inline;
+    padding-top: 8px;
+}
 header{
     background-color: white;
     height: 80px;
@@ -63,13 +72,7 @@ header li {
     color: white;
 }
 
-.logo{
-    float: left;
-    padding-left: 30px;
-    display: inline;
-    padding-top: 8px;
-}
-
+/* HEADER SOTTO BARRA DI NAVIGAZIONE */
 .sottonav{
     height: 700px;
     background-color: rgb(180, 209, 231);
@@ -112,4 +115,99 @@ header li {
     height: auto;
     left: 700px;
     top:-300px;
+}
+.contenitorecolonne{
+    width: 80%;
+    margin: 0 auto;
+}
+.titolocolonne{
+    font-size: 30px;
+    padding-left: 165px;
+    padding-top: 220px;
+    
+}
+.radiobutton{
+    padding-left: 165px;
+    padding-top: 40px;
+    padding-right: 30px;
+    margin-bottom: 35px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+    padding-left: 135px;
+}
+.row h2{
+    text-align: center;
+    font-size: 20px;
+    padding: 7px 0 15px;
+}
+.row p{
+    padding: 25px 0 10px 0;
+    font-size: 15px;
+}
+.internocolonne h4{
+    padding-top: 50px;
+    border-top: 1px solid grey;
+}
+#textcolumn{
+    font-size: 25px;
+    text-align: left;
+    padding: 10px 0 15px 0;
+}
+
+.row span{
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 15px;
+    padding: 25px 0 15px 0;
+}
+
+.column {
+    float: left;
+    height: 1200px;
+    width: 25%;
+    margin: 30px;
+    background-color: #fff;
+    border: 1px solid gray;
+}
+.borderbottom{
+    border-bottom: 1px solid gray;
+}
+
+.internocolonne{
+    margin: 0 30px;
+    width: 80%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}  
+
+#month{
+    font-size: 15px;
+    color: gray;
+    padding: 25px 0 15px 0;
+}
+
+.provagratis{
+    padding-bottom: 15px;
+}
+
+.provagratis button{
+    background-color: rgb(0, 97, 255);
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    border: none;
+    padding:10px 55px;
+}
+.internocolonne a{
+    text-decoration: underline;
+    color:rgb(11, 103 , 255);
+}
+.fa-check{
+    color: rgb(0, 97, 255);
 }
