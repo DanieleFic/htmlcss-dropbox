@@ -414,3 +414,29 @@ header li {
     border: none;
     color: black;
 }
+
+.containerFAQ{
+    height: 500px;
+    background-color: red;
+}
+
+.FAQ{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 45px;
+}
+
+.FAQdomande{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-bottom: 45px;
+}
+
+.FAQdomande p{
+    display: none;
+}
+
+.c
