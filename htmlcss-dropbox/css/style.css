@@ -10,6 +10,13 @@ a{
     color: black;
 }
 
+body button{
+    background-color: rgb(0, 97, 255);
+    text-align: center;
+    color: white;
+    text-align: center;
+}
+
 /*BARRA DI NAVIGAZIONE */
 
 .header:after{
@@ -65,11 +72,9 @@ header li {
 }
 
 .btnInizia button{
-    background: rgb(0, 97, 255);
     border: none;
     padding: 5px 5px;
     width: 60px;
-    color: white;
 }
 
 /* HEADER SOTTO BARRA DI NAVIGAZIONE */
@@ -91,11 +96,8 @@ header li {
 }
 .provagratutita button{
     width: 10%;
-    background-color: rgb(0, 97, 255);
-    text-align: center;
     margin-top: 25px;
     margin-left: 280px;
-    color: white;
     border: none;
     padding:7px;
 }
@@ -197,10 +199,7 @@ header li {
 }
 
 .provagratis button{
-    background-color: rgb(0, 97, 255);
-    text-align: center;
     margin-top: 25px;
-    color: white;
     border: none;
     padding:10px 55px;
 }
@@ -233,10 +232,29 @@ header li {
     float: right;
 }
 .bottonevendite button{
-    background-color: rgb(0, 97, 255);
-    text-align: center;
-    color: white;
     border: none;
     padding:10px 55px;
     margin-right: 20px;
+}
+
+.partner{
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 210px;
+}
+.partner img{
+    height: 500px;
+}
+.text-partner{
+    width: 25%;
+    float: right;
+    margin-right: 350px;
+    margin-top: 80px;
+}
+.text-partner button{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding: 8px;
 }
