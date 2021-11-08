@@ -492,4 +492,6 @@ li{
     font-size: 15px;
 }
 
-
+.domande:hover  p{
+    display: block;
+}
