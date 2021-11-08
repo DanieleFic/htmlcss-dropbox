@@ -56,7 +56,7 @@ header{
     position: relative;
    
 }
-ul{
+header ul{
     padding-right: 50px;
     padding-left: 50px;
 }
@@ -416,8 +416,8 @@ header li {
 }
 
 .containerFAQ{
-    height: 500px;
-    background-color: red;
+    height: 700px;
+    background-color: #fff;
 }
 
 .FAQ{
@@ -429,14 +429,67 @@ header li {
 }
 
 .FAQdomande{
-    width: 80%;
-    margin: 0 auto;
-    padding-left: 100px;
+    width: 50%;
+    margin-left: 290px;
     padding-bottom: 45px;
+    padding-top: 30px;
 }
 
 .FAQdomande p{
     display: none;
+    padding-top: 20px;
 }
 
-.c
+.fa-chevron-down{
+    padding-left: 300px;
+}
+
+.domande{
+    width: 100%;
+    padding-bottom: 45px;
+    padding-top: 30px;
+    border-top: 1px solid gray;
+}
+
+.a:hover p{
+    display: inline-block;
+}
+
+footer{
+    background-color: black;
+    height: 530px;
+}
+
+.row-footers{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+section li{
+    list-style-type: none;
+}
+
+.columns {
+    float: left;
+    padding: 103px;
+}
+
+.titlecols{
+    padding: 5px;
+}
+
+.titlecols{
+    color:#fff;
+    font-size: 20px;
+}
+
+ul{
+    color: white;
+}
+li{
+    padding: 6px;
+    font-size: 15px;
+}
+
+
