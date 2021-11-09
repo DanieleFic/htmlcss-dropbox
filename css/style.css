@@ -10,6 +10,12 @@ a{
     color: black;
 }
 
+.cleafix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 body button{
     background-color: rgb(0, 97, 255);
     text-align: center;
@@ -18,13 +24,6 @@ body button{
 }
 
 /*BARRA DI NAVIGAZIONE */
-
-.header:after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .logo{
     float: left;
     padding-left: 30px;
@@ -41,7 +40,7 @@ header{
     z-index: 55;
 }
 
-.clearfix{
+.boxlogo{
     display: inline;
 }
 
@@ -54,12 +53,13 @@ header{
     float: right;
     padding-right: 45px;
     position: relative;
-   
 }
+
 header ul{
     padding-right: 50px;
     padding-left: 50px;
 }
+
 header li {
     display: inline-block;
     list-style-type: none;
@@ -123,6 +123,8 @@ header li {
     left: 700px;
     top:-300px;
 }
+
+/* COLONNE CON PIANI D'ACQUISTO */
 .contenitorecolonne{
     width: 80%;
     margin: 0 auto;
@@ -139,28 +141,27 @@ header li {
     padding-right: 30px;
     margin-bottom: 35px;
 }
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .row{
     padding-left: 135px;
 }
+
 .row h2{
     text-align: center;
     font-size: 20px;
     padding: 7px 0 15px;
 }
+
 .row p{
     padding: 25px 0 10px 0;
     font-size: 15px;
 }
+
 .internocolonne h4{
     padding-top: 50px;
     border-top: 1px solid grey;
 }
+
 #textcolumn{
     font-size: 25px;
     text-align: left;
@@ -182,6 +183,7 @@ header li {
     background-color: #fff;
     border: 1px solid gray;
 }
+
 .borderbottom{
     border-bottom: 1px solid gray;
 }
@@ -208,13 +210,16 @@ header li {
     border: none;
     padding:10px 55px;
 }
+
 .internocolonne a{
     text-decoration: underline;
     color:rgb(11, 103 , 255);
 }
+
 .fa-check{
     color: rgb(0, 97, 255);
 }
+
 .columnbottom{
     float: left;
     width: 1170px;
@@ -223,6 +228,7 @@ header li {
     height: 230px;
     border: 1px solid grey;
 }
+
 .borderbottom h3{
     text-align: center;
     padding:6px;
@@ -233,29 +239,35 @@ header li {
     padding-bottom: 5px;
     padding-top: 10px;
 }
+
 .bottonevendite{
     float: right;
 }
+
 .bottonevendite button{
     border: none;
     padding:10px 55px;
     margin-right: 20px;
 }
 
+/* IMMAGINE E TESTO SOTTO COLONNE */
 .partner{
     width: 80%;
     margin-top: 100px;
     margin-left: 210px;
 }
+
 .partner img{
     height: 500px;
 }
+
 .text-partner{
     width: 25%;
     float: right;
     margin-right: 350px;
     margin-top: 80px;
 }
+
 .text-partner button{
     margin-top: 20px;
     background-color: white;
@@ -263,12 +275,8 @@ header li {
     border: 1px solid black;
     padding: 8px;
 }
-.rowcolumn:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
+/* SET DI IMMAGINI E TESTO (OPERAZIONI DROPBOX)*/
 .titolocolonne2{
     padding-left: 0;
     padding-top: 50px;
@@ -281,13 +289,14 @@ header li {
     padding-left: 140px;
 }
 
-.box {
+.box{
     padding-top: 30px;
     float: left;
     width: 27%;
     margin:20px; 
     background-color: #fff;
     line-height: 25px;
+    padding-bottom: 20px;
 }
 
 .box h3{
@@ -301,27 +310,24 @@ header li {
 
 .testoteam{
     padding-top: 40px;
-    padding-left: 330px;
-    width: 34%;
+    padding-left: 347px;
+    width: 35%;
     line-height: 35px;
     padding-bottom: 40px;
 }
+
 #scopri{
     text-decoration: underline;
     color: rgb(65, 137, 255);
     padding-bottom: 40px;
 }
+
+/* ZONA CON SPONSOR */
 .partnersotto{
     width: 100%;
     background-color: rgb(180, 209, 231);
     height: 600px;
     margin-left: 0;
-}
-
-.rowlogo:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .colonnalogo {
@@ -330,6 +336,7 @@ header li {
     height: 330px;
     padding: 0;
 }
+
 .colonnalogomiddle {
     float: left;
     width: 55%;
@@ -350,6 +357,8 @@ header li {
     left: 55px;
     top: 65px;
     padding: 0;
+    Filter:invert(1)
+
 }
 
 .boxsponsor{
@@ -357,8 +366,8 @@ header li {
     float: left;
     height: 165px;
     width: 214px;
-    
 }
+
 #designit{
     background-color: rgb(162, 211, 155);
 }
@@ -371,7 +380,6 @@ header li {
 #topps{
     background-color: rgb(255, 28, 28);
 }
-
 #bicycle{
     background-color: rgb(213, 0, 31);
 }
@@ -382,8 +390,10 @@ header li {
     background-color: rgb(13, 36, 129);
 }
 #clear{
-    background-color: rgb(255, 216, 48)
+    background-color: rgb(255, 216, 48);
+    
 }
+
 .testomiddle{
     width: 80%;
     padding-left: 40px;
@@ -408,6 +418,7 @@ header li {
     left: 1300px;
     color: black;
 }
+
 #provagratutitabottom button{
     padding: 6px 55px;
     background-color: white;
@@ -415,6 +426,7 @@ header li {
     color: black;
 }
 
+/*  Sezione domande FAQ */
 .containerFAQ{
     height: 700px;
     background-color: #fff;
@@ -455,6 +467,7 @@ header li {
     display: inline-block;
 }
 
+/* HEADER SOTTO BARRA DI NAVIGAZIONE */
 footer{
     background-color: black;
     height: 530px;
@@ -487,6 +500,7 @@ section li{
 ul{
     color: white;
 }
+
 li{
     padding: 6px;
     font-size: 15px;
