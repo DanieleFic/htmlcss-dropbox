@@ -343,6 +343,7 @@ header li {
     padding: 10px;
     height: 330px;
     background-color: white;
+    overflow-y: auto;
 }
 
 .colonnalogomiddle img{
@@ -399,6 +400,8 @@ header li {
     padding-left: 40px;
     line-height: 25px;
 }
+
+
 
 #autore{
     padding-top: 30px;
