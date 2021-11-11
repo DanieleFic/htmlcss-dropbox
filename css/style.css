@@ -117,11 +117,11 @@ header li {
     margin-top: 20px;
 }
 .jumbo img{
-    position: relative;
-    width: 50%;
+    position: absolute;
     height: auto;
+    width: 50%;
     left: 700px;
-    top:-300px;
+    top: 330px;
 }
 
 /* COLONNE CON PIANI D'ACQUISTO */
@@ -355,18 +355,18 @@ header li {
 .colonnalogo img{
     position: absolute;
     width: 45%;
-    left: 55px;
-    top: 65px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 0;
     Filter:invert(1)
-
 }
 
 .boxsponsor{
     position: relative;
     float: left;
-    height: 165px;
-    width: 214px;
+    height:50%;
+    width: 50%;
 }
 
 #designit{
@@ -444,7 +444,7 @@ header li {
 }
 
 .FAQdomande{
-    width: 50%;
+    width: 65%;
     margin-left: 290px;
     padding-bottom: 45px;
     padding-top: 30px;
@@ -456,7 +456,7 @@ header li {
 }
 
 .fa-chevron-down{
-    padding-left: 300px;
+    padding-left: 45%;
 }
 
 .domande{
@@ -477,7 +477,7 @@ footer{
 }
 
 .row-footers{
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     padding-top: 50px;
 }
@@ -488,7 +488,8 @@ section li{
 
 .columns {
     float: left;
-    padding: 103px;
+    width: 20%;
+    padding-top: 5%;
 }
 
 .titlecols{
@@ -511,4 +512,12 @@ li{
 
 .domande:hover  p{
     display: block;
+}
+
+.ita{
+    padding-top: 25%;
+    color: gray;  
+}
+.ita .fas{
+    padding: 3px;
 }
